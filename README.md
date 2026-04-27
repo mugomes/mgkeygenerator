@@ -7,7 +7,7 @@ MGKeyGenerator é uma biblioteca para gerar chaves aleatórios com e sem hash.
 ## ✨ Características
 
 * Zero dependências externas
-* Compatível com **PHP 8.3 ou superior**
+* Compatível com **PHP 8.4 ou superior**
 
 ---
 
