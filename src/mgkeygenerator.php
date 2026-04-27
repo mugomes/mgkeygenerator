@@ -2,7 +2,7 @@
 // Copyright (C) 2026 Murilo Gomes Julio
 // SPDX-License-Identifier: LGPL-2.1-only
 
-// Site: https://youtube.com/@mugomesoficial
+// Site: https://mugomes.github.io
 
 namespace MGKeyGenerator;
 
@@ -23,31 +23,37 @@ class mgkeygenerator
     public function amount(int $valor)
     {
         $this->sQuantidade = $valor;
+        return $this;
     }
 
     public function strtolower()
     {
         $this->sMinusculo = true;
+        return $this;
     }
 
     public function strtoupper()
     {
         $this->sMaiusculo = true;
+        return $this;
     }
 
     public function numbers()
     {
         $this->sNumeros = true;
+        return $this;
     }
 
     public function specialCharacters()
     {
         $this->sCaracteresEspeciais = true;
+        return $this;
     }
 
     public function hash(string|int $value = PASSWORD_DEFAULT)
     {
         $this->sHash = $value;
+        return $this;
     }
 
     public function generate(bool $withHash = false): string|array
