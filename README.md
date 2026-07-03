@@ -1,8 +1,5 @@
 # MGKeyGenerator
 
-> [!NOTE]
-> This repository has been migrated to Codeberg, please see: https://codeberg.org/bluice/mgkeygenerator
-
 MGKeyGenerator é uma biblioteca para gerar chaves aleatórios com e sem hash.
 
 ---
